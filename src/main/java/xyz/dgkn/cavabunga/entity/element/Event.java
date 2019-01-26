@@ -5,13 +5,30 @@ import xyz.dgkn.cavabunga.entity.Element;
 import xyz.dgkn.cavabunga.entity.Meta;
 import xyz.dgkn.cavabunga.entity.Participant;
 
+import java.util.Date;
 import java.util.List;
+import java.util.UUID;
 
 @Data
 public class Event implements Element {
     private Participant owner;
     private Element parent;
     private List<Meta> metas;
+    private UUID uuid;
+    private String attachments;
+    private String attendees;
+    private String categories;
+    // private String class; this willnot work 'class' name
+    private String comment;
+    private String contact;
+    private String description;
+    private Date created;
+    private Date end;
+    private Date start;
+    private Date modified;
+    private Date duration;
+    private String geo;
+
 
     @Override
     public void validate(){}

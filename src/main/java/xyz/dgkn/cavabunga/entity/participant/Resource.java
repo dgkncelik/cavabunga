@@ -9,7 +9,7 @@ import java.util.List;
 
 
 @Data
-public class Company implements Participant {
+public class Resource implements Participant {
     private Participant parent;
     private List<Authorization> authorizations;
     private List<Meta> metas;

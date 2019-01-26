@@ -2,7 +2,7 @@ package xyz.dgkn.cavabunga.entity.meta;
 
 import xyz.dgkn.cavabunga.entity.Meta;
 
-public class UserMeta implements Meta {
+public class ElementMeta implements Meta {
     private String metaKey;
     private String metaValue;
 
